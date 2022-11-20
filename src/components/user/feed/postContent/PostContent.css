@@ -1,0 +1,8 @@
+.postContent {  color: #fff; overflow-wrap: break-word;}
+
+.post-image{
+    width: 100% !important;
+    max-height: 500px !important;  
+    object-fit: cover;
+    margin-top: 5px; 
+}

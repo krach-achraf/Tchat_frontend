@@ -1,0 +1,119 @@
+.doLikeShare {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+
+.likes-types {
+    position: absolute;
+    top: -46px;
+    left: -92px;
+    background-color: #000;
+    padding: 10px;
+    width: 275px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.label-reaction{
+    color: #fff;
+    position: absolute;
+    top: -40px;
+    background-color: #000;
+    padding: 2px 12px;
+    border-radius: 10px;
+    border: 1px solid #1e1d1d;
+}
+
+.label-reaction-like{
+    left: -3px;
+}
+
+.label-reaction-dislike{
+    left: 17px;
+}
+
+.label-reaction-love{
+    left: 57px;
+}
+
+.label-reaction-haha{
+    left: 91px;
+}
+
+.label-reaction-sad{
+    left: 129px;
+}
+
+.label-reaction-angry{
+    left: 152px;
+}
+
+.label-reaction-insightful{
+    left: 175px;
+}
+
+.label-reaction-celebrate{
+    left: 206px;
+}
+
+.icon-reaction {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.icon-reaction-like {
+    color: #0000ff;
+}
+
+.icon-reaction-dislike {
+    color: #7c7c7c;
+}
+
+.icon-reaction-haha,
+.icon-reaction-sad {
+    color: #a99401;
+}
+
+.icon-reaction-angry {
+    color: #d71515;
+}
+
+.icon-reaction-celebrate {
+    color: #158513;
+}
+
+.icon-reaction-hover:hover {
+    scale: 1.4;
+    transform: translateY(-6px);
+    transition: 0.5s;
+}
+
+.doShare {
+    margin-left: 22px;
+}
+
+.doLike,
+.doShare {
+    width: 90px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.03);
+    justify-content: center;
+    padding: 6px 0px;
+    border-radius: 5px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.doLike:hover,
+.doShare:hover {
+    transition: 0.7s;
+    background-color: rgba(8, 16, 14, 0.8);
+    border-color: rgb(41, 40, 40);
+}

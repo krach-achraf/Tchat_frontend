@@ -1,0 +1,65 @@
+.admin-settings{
+    height: 100%;
+    background-color: #0A1814;
+    font-family: 'Prompt', Sans serif;
+}
+
+.admin-settings-space{
+    padding: 5px;
+}
+
+.admin-settings-space h2{
+    color: white;
+    margin: 10px 0 25px 20px
+}
+
+.admin-update-settings{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 0 10px;
+}
+
+.admin-information{
+    display: flex;
+    background-color: #c5784c;
+    width: 100%;
+}
+
+.admin-credentials{
+    padding: 0 20px;
+    color: #ddd;    
+    background-color: #ddd;
+    width: 100%
+}
+
+.admin-credentials ul{
+    list-style: none;
+}
+
+.admin-credentials ul li{
+    color: #000;
+    margin: 1.05rem 0;
+}
+
+.admin-update-picture{
+    padding: 30px;
+    background-color: #F5F5F5;
+}
+
+.admin-update-settings .admin-update-inputs{
+    margin: 10px 0;
+}
+
+.admin-update-settings .admin-update-inputs .admin-update-fields{
+    width: 400px;
+    height: 30px;
+}
+
+.btn-update-admin-settings{
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    background-image: linear-gradient(to right, #c5784c, #ff5e00);
+    color: #ddd;
+    border: 1px solid #ff5e00;
+}

@@ -1,0 +1,96 @@
+.reports-postDetails-modal{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: rgb(0 0 0 / 78%);
+}
+
+.reports-postDetails-modal-main{
+    width: 40%;
+    background-color: #FFFFFF ;
+}
+
+.reports-postDetails-modal-header{
+    display: flex;
+    height: 50px;
+    background-color: #ECECEC;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reports-postDetails-modal-title{
+    font-size: 20px;
+    margin: 0 0 0 15px
+}
+
+.reports-postDetails-modal-btnClose{
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    background-color:#ECECEC;
+    display: flex;
+}
+
+.reports-postDetails-modal-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+} 
+
+.reports-postDetails-mainContent{
+    padding: 15px;
+}
+
+.reports-postDetails-content, .reports-postDetails-user{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reports-postDetails-user{
+    display: flex;
+    align-items: center;
+}
+
+.reports-postDetails-content div{
+    width: 90%;
+}
+
+.reports-postDetails-postImg{
+    aspect-ratio: 1/1;
+}
+
+.reports-postDetails-content video, .reports-postDetails-postImg{
+    margin-top: 10px;
+}
+
+.reports-postDetails-title{
+    font-weight: bold;
+}
+
+.reports-postDetails-content div div{
+    display: flex;
+    justify-content: center;
+}
+
+.reports-postDetails-postImg{
+    object-fit: cover;
+    width: 75%;
+}
+
+.reports-postDetails-content video{
+    width: 75%;
+}
+
+@media only screen and (max-width: 769px){
+    .reports-postDetails-modal-main {
+        width: 85%;
+    }
+
+}

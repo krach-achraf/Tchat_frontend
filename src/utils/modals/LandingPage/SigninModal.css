@@ -1,0 +1,203 @@
+.signin-modal {
+  position: fixed;
+  top: -20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signin-modal-content {
+  width: 900px;
+  height: 540px;
+  background-color: #ffffff;
+}
+
+.signin-modal-header {
+  display: flex;
+  height: 75px;
+  background-color: #ececec;
+  align-items: center;
+}
+
+.signin-modal-header h3 {
+  font-size: 23px;
+  color: #040c0a;
+  border: clip;
+  margin: 0 0 0 20px;
+}
+
+.signin-modal-header button {
+  position: relative;
+  margin: 0 0 0 750px;
+  font-size: 22px;
+  border: none !important;
+  background-color: #ececec;
+  color: #040c0a;
+}
+
+.signin-modal-body {
+  height: 180px;
+}
+
+.signin-modal-body form {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 100px 0;
+}
+
+.errorSignIn {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ef3939;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b53131;
+  position: relative;
+  bottom: 25px;
+}
+
+.signin-inputs {
+  height: 80px;
+}
+
+.signin-inputs-password {
+  position: relative;
+}
+
+.showPassword {
+  position: absolute;
+  top: 7px;
+  right: 160px;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(161 160 160);
+}
+
+.showPassword:hover {
+  transition: 0.5s;
+  color: #000;
+}
+
+.text-fields {
+  height: 40px;
+  width: 600px;
+  margin: 0 150px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+  border: 1px;
+  outline: none;
+  font-weight: bold;
+}
+
+.signin-form .signin-inputs .text-fields:focus {
+  border: solid 1px #00a3ff;
+}
+
+.signin-form .signin-inputs .text-field::placeholder {
+  color: #00a3ff;
+}
+
+.signin-modal-body .signin-functionality {
+  display: flex;
+  color: #040c0a;
+  justify-content: space-around;
+}
+
+.signin-rememberMe {
+  font-weight: bold;
+}
+
+.signin-forgotPassword {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.signin-forgotPassword:hover {
+  transition: 0.5s;
+  color: #000;
+}
+
+.signin-form .signin-modal-btn {
+  background-color: #1a8718;
+  margin: 30px 150px;
+  height: 40px;
+  width: 600px;
+  font-size: 1.3rem;
+  border: none;
+  color: #f3f3f3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.signin-modal-btn:hover {
+  transition: 0.5s;
+  background-color: #125311;
+}
+
+.signin-modal-footer {
+  background-color: #ececec;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.4rem;
+  position: relative;
+  top: 250px;
+}
+
+.signin-modal-footer small {
+  font-weight: bold;
+}
+
+.signin-modal-footer .link-to-signup {
+  color: #0094ff;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link-to-signup:hover {
+  transition: 0.5s;
+  color: #0c3858;
+}
+
+@media only screen and (max-width: 769px) {
+  .signin-modal-content {
+    width: 350px;
+  }
+  .errorSignIn {
+    width: 300px;
+  }
+  .showPassword{
+    right: 30px;
+  }
+  .signin-modal-header button {
+    margin: 0 0 0 200px;
+  }
+
+  .signin-form .signin-inputs .text-fields {
+    width: 300px;
+    margin: 0 0 0 25px;
+  }
+
+  .signin-form .signin-modal-btn {
+    width: 250px;
+    margin: 40px 50px 20px;
+  }
+}

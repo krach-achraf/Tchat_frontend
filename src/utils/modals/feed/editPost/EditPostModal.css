@@ -1,0 +1,139 @@
+.editPost-modal{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background-color: rgb(0 0 0 / 78%);
+}
+
+.editPost-modal-main{
+    width: 40%;
+    background-color: #FFFFFF ;
+}
+
+.editPost-modal-header{
+    display: flex;
+    height: 50px;
+    background-color: #ECECEC;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editPost-modal-title{
+    font-size: 20px;
+    margin: 0 0 0 15px
+}
+
+.editPost-modal-btnClose{
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    background-color:#ECECEC;
+    display: flex;
+}
+
+.editPost-modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.editPost-modal-content{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 200px;
+}   
+
+.editPost-modal-postPhotoVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    position: relative;
+}
+
+.editPost-modal-postPhotoVideo > div{
+    display: flex;
+    justify-content: center;
+}
+
+.editPost-post-image{
+    object-fit: cover;
+}
+
+.editPost-post-image, .editPost-modal-postPhotoVideo video {
+    width: 50%;
+    max-height: 500px !important;
+}
+
+.editPost-modal-postPhotoVideo-icon{
+    position: absolute;
+    top: -10px;
+    right: 125px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.editPost-modal-photoOrVideo{
+    display: flex;
+}
+
+.editPost-modal-photoOrVideo-option{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.editPost-modal-photo-option{
+    border-right: 1px solid #ffffff2b;
+}
+
+.editPost-modal-photoOrVideo-optionText{
+    cursor: pointer;
+}
+
+.editPost-modal-photoOrVideo-icon{
+    margin-right: 10px;
+}
+
+.editPost-modal-btnEdit, .editPost-modal-photoOrVideo {
+    margin: 5px 10px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A8718;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editPost-modal-photo-option:hover, .editPost-modal-video-option:hover, .editPost-modal-btnEdit:hover {
+    transition: 0.7s;
+    background-color: #124711;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 769px){
+    .editPost-modal-main {
+        width: 85%;
+    }
+
+}

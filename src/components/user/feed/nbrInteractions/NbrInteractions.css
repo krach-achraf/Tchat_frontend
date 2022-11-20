@@ -1,0 +1,110 @@
+.nbrLikesSharesComments {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nbrLikes {
+  position: relative;
+}
+
+.likes-details {
+  width: 100px;
+  position: absolute;
+  display: none;
+  bottom: 45px;
+  left: -36px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  border: 1px solid #201f1f;
+  box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+  z-index: 10000;
+}
+
+.nbrLikes:hover .likes-details {
+  display: block;
+}
+.like-detail {
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.like-detail-icon {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.like-detail-icon-like {
+  color: #0000ff;
+}
+
+.like-detail-icon-dislike {
+  color: #7c7c7c;
+}
+
+.like-detail-icon-haha,
+.like-detail-icon-sad {
+  color: #a99401;
+}
+
+.like-detail-icon-angry {
+  color: #d71515;
+}
+
+.like-detail-icon-celebrate {
+  color: #158513;
+}
+
+.likes-details-hr {
+  border: none;
+  height: 1px;
+  background-color: #201f1f;
+}
+
+.triangle-icon {
+  position: absolute;
+  left: calc(50% - 8px);
+  bottom: -11px;
+  color: #000;
+}
+
+.nbrLikes,
+.nbrComments {
+  margin-right: 30px;
+}
+
+.iconLike,
+.iconShare,
+.iconComment {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 28px;
+  color: #0fa958;
+}
+
+.iconLike {
+  border: 1px solid transparent;
+}
+
+.iconLike:hover {
+  transition: 0.5s;
+  background-color: #0e1d19;
+  color: #fff;
+  border-color: #fff;
+}
+/*.iconLike{
+    cursor: pointer;
+}*/
+
+.nbrLikesText,
+.nbrSharesText,
+.nbrCommentsText {
+  position: relative;
+  top: -9px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+}

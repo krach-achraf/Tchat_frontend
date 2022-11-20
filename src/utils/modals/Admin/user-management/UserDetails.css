@@ -1,0 +1,41 @@
+.user-details-modal{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.user-detials-content{
+    width: 700px;
+    height: 540px;
+    background-color: #FFFFFF ;
+}
+
+.user-details-header{
+    display: flex;
+    height: 75px;
+    background-color: #ECECEC;
+    align-items: center;
+}
+
+.user-details-header h3{
+    font-size: 20px;
+    color: #040C0A;
+    border: clip;
+    margin: 0 0 0 20px
+}
+
+.user-details-header button{
+    margin: 0 0 0 500px;
+    font-size: 25px;
+    border: none !important;
+    background-color:#ECECEC;
+    color: #040C0A;
+}

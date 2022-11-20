@@ -1,0 +1,34 @@
+.admin-header{
+    display: flex;
+    background-image: linear-gradient(to right, #FFFEFF , #D7FFFE);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header .admin-greet{
+    font-family: 'Prompt' , Sans serif;
+    margin: 0 0 0 40px;
+    color: rgb(14, 14, 14);
+}
+
+.admin-header .admin-logout{
+    margin: 0 20px 0 0;
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+}
+
+.admin-header .admin-logout-div .admin-logout-tooltip{
+    visibility: hidden;
+    background-color:rgb(65, 65, 65);   
+    color: #FFF;
+    position: absolute;
+    font-size: 0.48rem;
+    width: 100%;
+    padding: 2px;
+    z-index: 1;
+    margin: 0 40px 0 0;
+}
+
+.admin-header .admin-logout-div:hover .admin-logout-tooltip{
+    visibility: visible;
+}

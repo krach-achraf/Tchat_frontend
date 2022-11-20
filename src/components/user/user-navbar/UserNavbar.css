@@ -1,0 +1,38 @@
+.user-navbar{
+    display: flex;
+    background-color: #040C0A;
+    font-family: 'Prompt' , Sans serif;
+    margin: 0;
+    padding: 2px;
+}
+
+.user-search-input{
+    height: 2rem;
+    background-color: #0A1814;
+    border: 1px solid #DDD;
+    margin: 15% 0;
+    color: #DDD
+}
+
+.user-navigation{
+    display: flex;
+    margin: 0;
+}
+
+.user-navigation .user-nav-links{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.user-nav-link{
+    display: block;
+    padding: 10px 15px;;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.user-nav-icons{
+    font-size: 1.8rem;
+}

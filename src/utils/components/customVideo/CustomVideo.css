@@ -1,0 +1,167 @@
+.customVideo {
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.customVideo.fullScreen .videoPost {
+  position: fixed;
+  max-height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.customVideo.fullScreen .video-controls-container {
+  bottom: 0;
+}
+.customVideo.fullScreen .timeLine-container {
+  height: 8px;
+}
+
+.videoPost {
+  width: 100%;
+  max-height: 500px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.video-controls-container {
+  z-index: 100;
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.video-controls-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  width: 100%;
+  aspect-ratio: 14/1;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.customVideo:hover .video-controls-container,
+.customVideo.paused .video-controls-container {
+  opacity: 1;
+}
+
+.timeLine-container {
+  height: 6px;
+  margin-inline: 0.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timeLine {
+  background-color: #161616;
+  height: 3px;
+  width: 100%;
+  position: relative;
+  border-radius: 3px;
+}
+
+.customVideo.scrubbing .timeLine,
+.timeLine-container:hover .timeLine {
+  height: inherit;
+}
+
+.timeLine::before,
+.timeLine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 3px;
+}
+
+.timeLine::before {
+  right: calc(100% - var(--preview) * 100%);
+  background-color: rgba(68, 68, 68, 0.9);
+  display: none;
+}
+
+.timeLine-container:hover .timeLine::before {
+  display: block;
+}
+
+.timeLine::after {
+  right: calc(100% - var(--progress) * 100%);
+  background-color: #1a8718; /* """""""""""" */
+}
+
+.controls {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.25em;
+  align-items: center;
+}
+
+.controlsButtons {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.controls button:hover {
+  transition: 200ms;
+  opacity: 1;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+}
+
+.volume-slider {
+  width: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.volume-container:hover .volume-slider,
+.volume-slider:focus-within {
+  transition: 0.3s;
+  width: 100px;
+  transform: scaleX(1);
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+  grid-area: 0.25rem;
+  flex-grow: 1;
+}
+
+.miniPlayerBtn {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.playVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.showComments{ cursor: default; display: inline-block; margin-top: 20px; color: #fff;}
+
+.showComments:hover{ text-decoration: underline}
+
+.showText{ margin-right: 5px; font-size: 14px;}
+
+.iconShow{ position: relative; top: 5px; font-size: 18px; }

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+header{
+    background-color: #040C0A;
+    font-family: 'Prompt', sans serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    padding: 0 2rem;
+}
+
+header h1{
+    color: #F3FCFA;
+    font-weight: bold;
+    font-family: fantasy
+}
+
+header .navbar-items .nav-links{
+    margin: 0 1rem;
+    color: #F3FCFA;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+header .navbar-items .nav-links:hover{
+    color: #040C0A;
+    background-color: #F3FCFA;
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.5rem;
+    background-color: #040C0A;
+    color: #F3FCFA;
+    border-radius: 5px;
+}
+
+header nav .btn-signin-modal{
+    padding: 10px 20px;
+    background-color: #040C0A;
+    color: #F3FCFA;
+    border-image: linear-gradient(to right, #00008a, #9932cc) 1;
+    font-size: 15px
+}
+
+header nav .btn-signin-modal:hover{
+    background-image: linear-gradient(to right, #0a0a0a, #141414);
+    cursor: pointer
+}
+
+@media only screen and (max-width: 1024px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar-items{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translateY(-100vh);
+        background-color: #040C0A;
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+
+    .navbar-items .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    header .navbar-items .signin-modal{
+        margin: 20px 0 0 0;
+    }
+}

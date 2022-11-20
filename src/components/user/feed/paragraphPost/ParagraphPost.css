@@ -1,0 +1,13 @@
+.paragraphPost { font-size: 15px; margin: 0 0 15px 10px; }
+
+.paragraphPost_btnMoreLess{
+    color: #7d7ddf;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.paragraphPost_btnMoreLess:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+:root{
+    --heightSharePostModal: 350px
+}
+
+.sharePost-modal{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background-color: rgb(0 0 0 / 78%);
+}
+
+.sharePost-modal-main{
+    width: 35%;
+    height: var(--heightSharePostModal);
+    background-color: #FFFFFF ;
+}
+
+.sharePost-modal-header{
+    display: flex;
+    height: 50px;
+    background-color: #ECECEC;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sharePost-modal-title{
+    font-size: 20px;
+    margin: 0 0 0 15px
+}
+
+.sharePost-modal-btnClose{
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    background-color:#ECECEC;
+    display: flex;
+}
+
+.sharePost-modal-body{
+    height: calc(var(--heightSharePostModal) - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.sharePost-modal-content{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    resize: none;
+    flex: 2;
+    padding: 10px;
+    font-size: 14px;
+ font-weight: bold;
+}   
+
+.sharePost-modal-btnShare {
+    margin: 10px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A8718;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sharePost-modal-btnShare:hover{
+    transition: 0.7s;
+    background-color: #124711;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 769px){
+    .sharePost-modal-main {
+        width: 85%;
+    }
+
+}

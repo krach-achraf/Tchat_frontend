@@ -1,0 +1,81 @@
+.user-management{
+    background-color: #070f0d;
+    height: 100vh;
+    font-family: 'Prompt', Sans serif;
+}
+
+.user-management-space{
+    margin: 20px 0;
+}
+
+.user-management-space h2{
+    color: white;
+    margin: 10px 0 25px 20px
+} 
+
+.user-filter{
+    margin: 5px 0 10px 20px
+}
+
+.user-filter .user-filter-input{
+    height: 2.1em;
+}
+
+.user-filter .btn-user-filter{
+    background-color: #1A8718;
+    color: #ddd;
+    padding: 5px;
+    border: 1px solid #1A8718
+}
+
+.users-table-display .users-table {
+    text-align: center;
+    border: 1ps solid #000;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    margin: 20px 0 0 20px
+}
+
+.users-table-display .users-table th, .users-table-display .users-table td{
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+
+.users-table-display .users-table td{
+    font-size: 0.7rem
+}
+
+.users-table-display .users-table th{
+    background-color: #1A8718;
+    color: #ddd;
+}
+
+.btn-details-user{
+    background-color: #0094FF;
+    border: 1px solid #0094FF;
+    color: white;
+    margin: 0 4px 0 0;
+    padding: 2px 5px
+}
+
+.btn-delete-user{
+    background-color: #8D0909;
+    color: #fff;
+    border: 1px solid #8D0909;
+    padding: 2px 5px
+}
+
+.list-pagination{
+    float: right;
+    margin: 20px 120px 0 0;
+}
+
+.list-pagination .btn-next, .list-pagination .btn-previous{
+    padding: 5px 20px;
+    margin: 0 2px;
+    color: #ddd;
+    background-color: #0A1814;
+    border: 1px solid #1A8718;
+    border-radius: 5px;
+}

@@ -1,0 +1,63 @@
+.admin-add-modal{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.admin-add-content{
+    width: 700px;
+    height: 420px;
+    background-color: #FFFFFF ;
+}
+
+.admin-add-header{
+    display: flex;
+    height: 75px;
+    background-color: #ECECEC;
+    align-items: center;
+}
+
+.admin-add-header h3{
+    font-size: 20px;
+    color: #040C0A;
+    border: clip;
+    margin: 0 0 0 20px
+}
+
+.admin-add-header button{
+    margin: 0 0 0 500px;
+    font-size: 25px;
+    border: none !important;
+    background-color:#ECECEC;
+    color: #040C0A;
+}
+
+.add-admin-form{
+    padding: 10px;
+    margin: 30px;
+}
+
+.admin-add-inputs{
+    margin: 30px 0
+}
+
+.add-admin-fields{
+    width: 50%;
+    height: 2rem
+}
+
+.btn-add-admin{
+    background-color: #0081dd;
+    border: 1px solid #0081dd;
+    color: #ddd;
+    height: 2rem;
+    width: 620px ;
+}

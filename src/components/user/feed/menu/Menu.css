@@ -1,0 +1,54 @@
+.menu{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    text-align: right;
+    z-index: 2;
+}
+
+.triangleIcon{
+    color: #fff;
+}
+
+.menu-main{
+    width: 250px;
+    background-color: #fff;
+    position: relative;
+    top: -12px;
+    right: -2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.menuItem{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.menuItem:hover{
+    background-color: #eee;
+}
+
+.iconMenuItem{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.buttonMenuItem {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.hrMenu{
+    margin: 5px 0;
+}

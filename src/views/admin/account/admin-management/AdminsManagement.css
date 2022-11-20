@@ -1,0 +1,86 @@
+.admins-management {
+    background-color: #070f0d;
+    height: 100vh;
+    font-family: 'Prompt', Sans serif;
+}
+
+.admin-management-space{
+    margin: 20px 0;
+}
+
+.admin-management-space h2{
+    color: white;
+    margin: 10px 0 25px 20px;
+}
+
+.admin-filter{
+    margin: 5px 0 10px 20px
+}
+
+.admin-filter .admin-filter-input{
+    height: 2.1em;
+}
+
+.admin-filter .btn-admin-filter{
+    background-color: #1A8718;
+    color: #ddd;
+    padding: 5px;
+    border: 1px solid #1A8718
+}
+
+.admin-table-display .admin-table {
+    text-align: center;
+    border: 1ps solid #000;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    margin: 20px 0 0 20px
+}
+
+.admin-table-display .admin-table th, .admin-table-display .admin-table td{
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+
+.admin-table-display .admin-table td{
+    font-size: 0.7rem
+}
+
+.admin-table-display .admin-table th{
+    background-color: #1A8718;
+    color: #ddd;
+}
+
+.btn-admin-details{
+    padding: 2px 5px;
+    margin: 0 4px 0 0;
+    background-color: #0094FF;
+    border: 1px solid #0094FF;
+    color: #ddd;
+} 
+
+.btn-admin-privilege{
+    padding: 2px 5px;
+    margin: 0 4px 0 0;
+    background-color: #FF3D00;
+    border: 1px solid #FF3D00;
+    color: #ddd;
+}
+
+.btn-admin-delete{
+    padding: 2px 5px;
+    background-color: #8D0909;
+    border: 1px solid #8D0909;
+    color: #ddd;
+}
+
+.admin-management-tools{
+    display: flex;
+}
+
+.btn-add-admins{
+    background-color: #0081dd;
+    color: #ddd;
+    margin: 0 0 0 50rem;
+    padding: 0 30px
+}

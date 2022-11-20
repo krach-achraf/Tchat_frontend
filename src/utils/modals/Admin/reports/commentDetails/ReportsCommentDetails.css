@@ -1,0 +1,114 @@
+.reports-commentDetails-modal {
+  position: fixed;
+  top: -20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: rgb(0 0 0 / 78%);
+}
+
+.reports-commentDetails-modal-main {
+  width: 40%;
+  background-color: #ffffff;
+}
+
+.reports-commentDetails-modal-header {
+  display: flex;
+  height: 50px;
+  background-color: #ececec;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reports-commentDetails-modal-title {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+}
+
+.reports-commentDetails-modal-btnClose {
+  cursor: pointer;
+  font-size: 22px;
+  border: none;
+  background-color: #ececec;
+  display: flex;
+}
+
+.reports-commentDetails-modal-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+}
+
+.reports-commentDetails-mainContent {
+  padding: 15px;
+}
+
+.reports-commentDetails-content,
+.reports-commentDetails-user,
+.reports-commentDetails-post {
+  padding: 15px 0;
+}
+
+.reports-commentDetails-content,
+.reports-commentDetails-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reports-commentPostDetails-icon{
+    background-color: rgba(0, 148, 255, 0.8);
+    color: #fff;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.reports-commentPostDetails-icon:hover{
+    background-color: rgba(8, 87, 143, 0.8);
+    transition: 700ms;
+}
+
+.reports-commentDetails-body-title {
+  font-weight: bold;
+}
+
+.reports-commentPostDetails-button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid transparent; 
+    color: rgb(22 22 253);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0
+}
+
+.reports-commentPostDetails-button:hover{
+    border-bottom-color: rgb(22 22 253);
+    transition: 700ms;
+}
+
+.reports-commentDetails-modal-content {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 150px;
+}
+
+@media only screen and (max-width: 769px) {
+  .reports-commentDetails-modal-main {
+    width: 85%;
+  }
+}

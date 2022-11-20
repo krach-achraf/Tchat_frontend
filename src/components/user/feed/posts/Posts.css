@@ -1,0 +1,22 @@
+.post{
+    background-color: #0E1D19;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 17px;
+    
+}
+
+.postTop{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.postTopRight{ margin-top: -45px; position: relative;}
+
+.iconMore{ color: #fff; cursor: pointer}
+
+.iconMore:hover{ transition: 0.5s;  color: #0FA958;}
+
